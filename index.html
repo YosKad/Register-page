@@ -1,0 +1,220 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register-Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<style>
+    body {
+margin: 0;
+padding: 0;
+        font-family: sans-serif;
+        background-image: url(abstract-flow.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    h1 {
+        font-size: 40px;
+        background-color: #3C719C;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        
+        font-family: "Font Awesome 5 Free";
+
+    }
+
+    fieldset {
+        text-align: center;
+        width: 500px;
+        margin: auto;
+        max-width: 500px;
+        padding: 16px;
+        border-radius: 10px;
+        border-color: #745CB4;
+
+    }
+
+    button {
+        background-color: rgba(245, 239, 239, 0.5);
+        color: black;
+        font-size: 20px;
+        border: 2px solid #745CB4;
+        padding: 14px 40px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    button:hover {
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid black;
+    }
+
+    .small-title {
+        display: flex;
+        justify-content: center;
+        color: #745CB4;
+        padding: auto;
+        border-width: 5px;
+        border-style: groove;
+        border-color: #18305A;
+        margin-left: 35%;
+        margin-right: 35%;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+    .label-form {
+        font-weight: bold;
+    }
+
+    .label-color {
+        color: #7F8690;
+    }
+
+    ol {
+        background: #ff9999;
+        padding: 20px;
+    }
+
+    ul {
+        background: #3399ff;
+        padding: 20px;
+        margin-top: 50px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    ol li {
+        background: #ffe5e5;
+        color: darkred;
+        padding: 5px;
+        margin-left: 35px;
+    }
+
+    ul li {
+        background: #cce5ff;
+        color: darkblue;
+        margin: 5px;
+    }
+
+
+    legend {
+        background-color: #18305A;
+        color: white;
+        padding: 5px 10px;
+    }
+    .icon1 {
+        color: #CF8794;
+    }
+    .icon-red {
+        color: red;
+    }
+    .icon-blue {
+        color: blue;
+    }
+    .icon-green {
+        color: green;
+    }
+    .icon-yellow {
+        color: yellow;
+    }
+    .icon-pink {
+        color: palevioletred;
+    }
+    .icon-brown {
+        color: brown;
+    }
+</style>
+
+<body>
+
+    <h1> Register Page <i class="fa-solid fa-right-to-bracket title-"></i></h1>
+    <h3 class="small-title"> Provide all you details </h3>
+    <form action="">
+        <br>
+        <fieldset>
+            <legend class="label-form"> <i class="fa-solid fa-person"></i> User Details </legend>
+            <label for="first-name" class="label-form label-color"> First Name: </label>
+            <input type="text">
+            <br><br>
+            <label for="last-name" class="label-form"> Last Name: </label>
+            <input type="text">
+            <br><br>
+            <label for="birthday" ><i class="fa-solid fa-cake-candles icon1"></i> Birthday: </label>
+            <input type="date">
+            <br><br>
+            <label for="email" ><i class="fa-solid fa-envelope"></i> Email: </label>
+            <input type="email">
+            <br><br>
+            <label for="fav-number"><i class="fa-solid fa-arrow-up-9-1"></i> Favorite Number: </label>
+            <input type="number">
+            <br><br>
+            <label for="phone-number"><i class="fa-solid fa-phone"></i> Phone Number: </label>
+            <input type="tel">
+            <br><br>
+            <label for="password"> <i class="fa-solid fa-lock"></i> Create Password: </label>
+            <input type="password">
+            <br><br>
+            <label for="time"><i class="fa-solid fa-clock"></i> Time: </label>
+            <input type="time">
+            <br><br>
+            <button type="submit"> Confirm <i class="fa-solid fa-check"></i></button>
+        </fieldset>
+    </form>
+    <ul>
+        <li class="fas fa-cloud icon-red">red</li>
+        <li class="fas fa-cloud icon-blue">blue</li>
+        <li class="fas fa-cloud icon-green">green</li>
+        <li class="fas fa-cloud icon-yellow">yellow</li>
+        <li class="fas fa-cloud icon-pink">pink</li>
+        <li class="fas fa-cloud icon-brown" >brown</li>
+    </ul>
+
+    <div style="text-align: center;">
+        <i class="fa-solid fa-stars icon1"></i>
+        <i class="fa-solid fa-fish fa-lg icon1"></i>
+        <i class="fa-solid fa-face-smile"></i>
+        <i class="fa-solid fa-face-vomit"></i>
+        <i class="fa-solid fa-ghost fa-2xl icon1"></i>
+    </div>
+<br><br>
+
+    <div class="table">
+        <table>
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>Microsoft</td>
+                <td>Yossef Kadosh</td>
+                <td>Israel</td>
+            </tr>
+            <tr>
+                <td>Google</td>
+                <td>Yossef Kadosh</td>
+                <td>USA</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+</body>
+
+</html>
